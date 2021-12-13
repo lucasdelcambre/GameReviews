@@ -1,0 +1,138 @@
+
+
+.App {
+  text-align: center;
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a {
+  color: lightskyblue;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gameList thead {
+  background-color: rgb(48, 48, 64);
+}
+
+.gameList tbody {
+  background-color: rgb(72, 72, 72);
+}
+
+.gameList td {
+  padding: 5px 10px 5px 10px;
+  outline: solid black 1px;
+}
+
+.gameTableItemName {
+  text-align: left;
+}
+
+.gameTableItemRating {
+  text-align: center;
+}
+
+.errorMsg {
+  color: red;
+}
+
+.formLabel {
+  text-align: left;
+  width: 150px;
+}
+
+.formInput {
+  text-align: right;
+  width: 200px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gameDetails {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  background-color: rgb(54, 54, 72);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.gameDetailsItem {
+  margin: 0px;
+  text-align: left;
+}
+
+.gameDetailsItemContent {
+  margin: 5px 0px 5px 20px;
+  text-align: left;
+  text-indent: 25px;
+}
+
+textarea{
+  width: 350px;
+  height: 80px;
+}
+
+.clickable {
+  color: lightskyblue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.review {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  background-color: rgb(54, 54, 72);
+  border-radius: 5px;
+  padding: 10px;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.review p {
+  text-indent: 50px;
+}
